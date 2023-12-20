@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ECF4FF;
+}
+
+.navbar {
+    box-shadow: 0px 4px 12px 0px #0000001F;
+}
+
+.cat-button {
+    background: linear-gradient(270deg,
+            #4d5ef6 0%,
+            #f64d4d 100%);
+
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cat-box {
+    background-color: #fff;
+    width: 134px;
+    height: 180px;
+    border-radius: 10px;
+    gap: 3px;
+}
+
+.cat-img {
+    width: 136px;
+    padding: 10px;
+}
+
+.cat-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.cat-title {
+    color: #1E1E1E;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.user-button {
+    background: linear-gradient(270deg,
+            rgba(77, 94, 246, 0.2) 0%,
+            rgba(246, 77, 77, 0.2) 100%);
+    width: 105px;
+    padding: 13px, 0px, 13px, 0px;
+    border-radius: 10px;
+}
+.best-selling-products {
+    display: flex;
+    justify-content: space-around;
+}
+.product {
+
+    /* width: 227px; */
+    width: 20%;
+    padding: 5px;
+    border-radius: 10px;
+    gap: 10px;
+
+}
+
+.product-price {
+    font-weight: 500;
+    line-height: 27px;
+
+}
+
+.product-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+
+}
+
+.favorite {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 5px;
+    left: 180px;
+    padding: 4px;
+    border-radius: 4px;
+    gap: 10px;
+
+}
+
+.favorite i {
+    font-size: 20px;
+    color: rgba(77, 94, 246, 0.2);
+}
+
+.hot-sale,
+.popular-sale {
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+    gap: 10px;
+    background: #FF0101;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.popular-sale {
+    background: #EB8528;
+}
+
+.buy-button {
+    width: 130px;
+    /* padding: 10px 0px 10px 0px; */
+    border-radius: 8px;
+    gap: 10px;
+}
+
+footer {
+    height: 345px;
+    background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+}
+
+.footer-links ol,
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+.contact-info a{
+    text-decoration: none;
+    color: #1E1E1E;
+}
+.footer-title {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #1E1E1E;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+
+}
+.social-icon{
+    width: 42px;
+    height: 42px;
+    margin-right: 10px;
+}
+hr{
+    background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
+}
